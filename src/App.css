@@ -227,6 +227,64 @@ a {
   margin-bottom: 10px; 
 }
 
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 1024px) {
+  .border img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  #search {
+    width: 80%;
+  }
+
+  .options {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .options input {
+    width: 100%;
+  }
+
+  .carousel-inner {
+    height: auto;
+  }
+
+  .border {
+    margin: 20px auto;
+  }
+
+  .border img {
+    width: 100%;
+    height: auto;
+  }
+
+  .inner-border {
+    width: 90%;
+    height: auto;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+  }
+}
+
 
 
 
